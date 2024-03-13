@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <th> LÜTFEN BU FORMU DOLDURUNUZ</th>
+    <form>
+        <fieldset>
+        <legend>Hesap Bilgileri</legend>
+        <table>
+            <tr>
+                <td><label>Kullanıcı Adı : </label></td>
+                <td><input type="text" name="kullaniciAdi" required="required"><br></td>
+            </tr>
+            <tr>
+                <td><label>e-Posta : </label></td>
+                <td><input type="email" name="ePosta" required="required"><br></td>
+            </tr>
+            <tr>
+                <td><label>Şifre : </label></td>
+                <td><input type="password" name="sifre"></td>
+            </tr>   
+        </table>         
+        </fieldset>
+        
+        <fieldset>
+        <table>
+                <legend>Kullanıcı Bilgileri</legend>
+            <tr>
+                <td>Ad : </td>
+                <td><input type="Ad"><br></td>
+            </tr>
+            <tr>
+                <td>Soyad : </td>
+                <td><input type="Soyad"><br></td>
+            </tr>
+            <tr>
+                <td>Şehir : </td>
+                <td><select type="Sehir" size="1"> 
+                    <option value="plaka35">İzmir
+                    <option value="plaka01">Adana
+                    <option value="plaka06">Ankara
+                </option></td>
+            </tr>
+            <tr>
+                <td>Cinsiyet : </td>
+                <td><input type="radio">Erkek <input type="radio">Kadın</td>
+            </tr>
+            <tr>
+                <td>Hobileriniz : </td>
+                <td><input type="checkbox">Sinema 
+                    <input type="checkbox">Futbol Oynamak 
+                    <input type="checkbox">Basketbol Oynamak 
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="Kaydet"/></td>
+            </tr>
+        </table>
+        </fieldset>
+    </form>
+</body>
+</html>

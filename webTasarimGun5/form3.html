@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form3.html" methode="get">
+        <fieldset>
+            <legend>Kullanıcı Bilgileri</legend>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="eposta" placeholder="E-mail Giriniz"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input required tabindex="1" type="password" name="sifre" placeholder="Şifre Giriniz" pattern=".{6,}" title="Şifre en az 6 karakter olmalıdır!"></td>
+                </tr>
+                <tr>
+                    <td>Password2</td>
+                    <td><input required tabindex="2" type="password" pattern="(?=*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Şifre" 
+                        title="Şifre en az 8 karakter olmalıdır ">
+                        </td>
+                </tr>
+                <tr>
+                    <td>Web Sayfası</td>
+                    <td><input type="url" pattern="https?://.+" placeholder="http:// dahil edin"></td>
+                </tr>
+                <tr>
+                    <td>Numara</td>
+                    <td><input type="number" step="2" placeholder="Çift Sayı"></td>
+                </tr>
+            </table>
+            <input type="submit" value="GÖNDER">    
+        </fieldset>       
+    </form>
+</body>
+</html>

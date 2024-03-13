@@ -1,0 +1,33 @@
+body{
+    color: #51ff00;
+    background-color: black;
+}
+
+#para1{
+    text-align: right;
+    color: gold;
+}
+
+p.center{
+    text-align: center;
+    color: red;
+}
+
+span{
+    font-size: 99px;
+}
+#p1{
+color: blue;
+}
+#p2{
+    color: chocolate;
+}
+#p3{
+    color: darkslateblue;
+}
+#p4{
+    color: floralwhite;
+}
+#p5{
+    color: magenta;
+}
